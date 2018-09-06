@@ -1,0 +1,31 @@
+{
+  "name": "loader-adventure",
+  "version": "1.0.0",
+  "description": "Minimium reproducible test case for https://github.com/webpack-contrib/mini-css-extract-plugin/issues/123",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezarowny/loader-adventure"
+  },
+  "author": "Eric Zarowny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezarowny/loader-adventure/issues"
+  },
+  "homepage": "https://github.com/ezarowny/loader-adventure#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
